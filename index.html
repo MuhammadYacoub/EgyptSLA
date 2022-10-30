@@ -26,6 +26,7 @@ https://templatemo.com/tm-561-purple-buzz
 </head>
 
 <body>
+    <div id="like_button_container"></div>
     <!-- Header -->
     <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
         <div class="container d-flex justify-content-between align-items-center">
@@ -568,6 +569,14 @@ https://templatemo.com/tm-561-purple-buzz
     <script src="assets/js/templatemo.js"></script>
     <!-- Custom -->
     <script src="assets/js/custom.js"></script>
+
+      <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
 
 </body>
 
